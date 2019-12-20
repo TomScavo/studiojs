@@ -1,10 +1,9 @@
 {
-  "name": "recorder-js",
-  "version": "1.0.7",
+  "name": "audio-recorder-js",
+  "version": "1.0.0",
   "description": "Record audio in your browser",
   "main": "index.js",
   "scripts": {
-    "prepublish": "rm -rf lib/ && ./node_modules/.bin/babel src/ -d lib/",
     "build": "webpack --env build",
     "dev": "webpack --progress --colors --watch --env dev",
     "dev:serve": "cd example && ../node_modules/.bin/webpack-dev-server --open --port 5000 --host localhost"
@@ -30,9 +29,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ijsnow/studiojs.git"
+    "url": "https://github.com/tomscavo/studiojs"
   },
-  "author": "Isaac Snow",
+  "author": "tomscavo",
   "license": "MIT",
   "dependencies": {
     "inline-worker": "^1.1.0"
