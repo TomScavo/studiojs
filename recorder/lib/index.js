@@ -19,12 +19,11 @@ var defaultConfig = {
   onAnalysed: null
 };
 
-var microphoneConfigOptions = ['bufferLen', 'numChannels', 'mimeType'];
+var microphoneConfigOptions = ['bufferLen', 'numChannels', 'mimeType', 'sampleRate', 'sampleBits'];
 
 var Recorder = function () {
   function Recorder(audioContext) {
     var config = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
-    debugger
     _classCallCheck(this, Recorder);
 
     this.config = Object.assign({}, defaultConfig, config);
