@@ -1,8 +1,3 @@
-> I am no longer working on the project that required this set of tools. I am happy to accept pull requests but won't
-> be actively developing new features or fixing any bugs. `recorder-js` was just slightly modernizing an existing library and
-> the rest of this project is just a simple react component. Feel free to fork, copy and modify this. Hopefully it helps or is at least
-> a good jumping off point for something better!
-
 # Studio.js
 
 A collection of tools to create your own in browser recording studio.
